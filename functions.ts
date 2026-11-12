@@ -57,3 +57,22 @@ function defaultData(price:number, rate:number = 0.5):void
 }
 
 defaultData(500);
+
+
+// Anonymous function
+const result = function (num1:number, num2:number){
+    let sum = num1 + num2;
+    console.log(sum)
+}
+
+result(12,23);
+
+
+// Arrow function; same as anonyous but we remove function keyword and add => symbol
+const result1 =  (num1:number, num2:number) => {
+    let sum = num1 + num2;
+    console.log(sum)
+}
+
+result1(12,22);
+
